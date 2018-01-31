@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Cette appli permet d'enregistrer les gossips THP.
 
-Things you may want to cover:
+Vous pouvez y accéder en cliquant sur https://mysterious-scrubland-55513.herokuapp.com/
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
