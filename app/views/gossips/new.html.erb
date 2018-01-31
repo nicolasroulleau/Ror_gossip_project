@@ -1,0 +1,13 @@
+<h1> New Gossip </h1>
+
+<%= form_for @gossip do |f| %>
+<p><%= f.label :anonymous_author %><br>
+   <%= f.text_field :anonymous_author %></p>
+ <p><%= f.label :content %><br>
+    <%= f.text_field :content %></p>
+  <%= f.submit "Create" %>
+<% end %>
+
+</br>
+<div><%= link_to"Back",root_path %></div>
+
