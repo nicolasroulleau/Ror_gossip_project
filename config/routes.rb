@@ -6,3 +6,4 @@ root 'gossips#index'
 resources :gossips
 
 end
+

@@ -17,7 +17,8 @@
     </div>
   <% end %>
  
-  <p>
+ 
+    <p>
     <%= form.label :anonymous_author %><br>
     <%= form.text_field :anonymous_author %>
   </p>
@@ -27,13 +28,16 @@
     <%= form.text_field :content %>
   </p>
  
-  <p>
+  <p>  
     <%= form.submit %>
-    <%= button_to 'Delete Gossip', @gossip, method: :delete %>
   </p>
  
- 
 <% end %>
- 
+
+  <p>
+    <%= button_to 'Delete Gossip', @gossip, method: :delete %>
+  </p>
+
 <%= link_to 'Back', gossips_path %>
+
 	
